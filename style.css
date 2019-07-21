@@ -1,0 +1,66 @@
+.container {
+  height: 320px;
+  width: 320px;
+  margin: auto;
+}
+
+.container h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.q {
+  height: 100px;
+  width: 100px;
+  font-size: 100px;
+  font-family: sans-serif;
+  float: left;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  cursor: pointer;
+}
+
+.q:hover {
+  background-color: aqua;
+}
+
+#q0,
+#q1,
+#q2,
+#q3,
+#q4,
+#q5 {
+  border-bottom: 5px solid black;
+}
+
+#q1,
+#q2,
+#q4,
+#q5,
+#q7,
+#q8 {
+  border-left: 5px solid black;
+}
+
+.reset {
+  position: absolute;
+  padding: 10px;
+  border-radius: 5px;
+  top: 60%;
+  left: 48%;
+  cursor: pointer;
+}
+
+.reset:hover {
+  color: white;
+  background-color: red;
+}
+
+.winner {
+  display: none;
+  font-size: 32px;
+  color: green;
+  text-align: center;
+  margin-bottom: 20px;
+}
